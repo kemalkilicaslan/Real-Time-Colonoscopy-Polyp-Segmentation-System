@@ -1,0 +1,29 @@
+# U-Net / ResNet-34 trained on Kvasir-SEG, evaluated zero-shot on CVC-ClinicDB.
+run_name: unet_r34
+seed: 42
+
+data:
+  kvasir_root: data/raw/Kvasir-SEG
+  cvc_root: data/raw/cvc/CVC-ClinicDB
+  val_fraction: 0.12          # 880 train / 120 val
+  image_size: 352
+
+model:
+  arch: Unet                  # any segmentation_models_pytorch architecture, e.g. DeepLabV3Plus
+  encoder: resnet34
+  encoder_weights: imagenet
+
+train:
+  epochs: 50
+  batch_size: 16
+  lr: 3.0e-4
+  weight_decay: 1.0e-4
+  num_workers: 4
+  early_stopping_patience: 20   # cosine LR is still high early on; val (n=120) is noisy
+  bce_weight: 1.0
+  dice_weight: 1.0
+
+eval:
+  threshold: 0.5
+  min_component_area_frac: 0.001   # ignore predicted blobs smaller than 0.1% of the frame
+  polyp_iou_threshold: 0.1         # a GT polyp counts as detected if a predicted blob overlaps it at IoU >= 0.1

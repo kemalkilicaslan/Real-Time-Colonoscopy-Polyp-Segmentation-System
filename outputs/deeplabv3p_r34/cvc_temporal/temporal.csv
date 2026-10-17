@@ -1,0 +1,5 @@
+min_hits,sequences_detected,frame_alarm_sensitivity,alarms,false_alarms,false_alarms_per_min@nominal_fps,median_latency_frames
+1,29/29,0.9820261437908496,184,30,73.52941176470588,0.0
+2,29/29,0.7271241830065359,87,1,2.4509803921568625,1.0
+3,29/29,0.5800653594771242,62,0,0.0,2.0
+5,25/29,0.3660130718954248,39,0,0.0,6.0

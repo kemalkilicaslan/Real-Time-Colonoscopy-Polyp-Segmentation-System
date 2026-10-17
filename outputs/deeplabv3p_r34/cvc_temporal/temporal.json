@@ -1,0 +1,38 @@
+[
+  {
+    "min_hits": 1,
+    "sequences_detected": "29/29",
+    "frame_alarm_sensitivity": 0.9820261437908496,
+    "alarms": 184,
+    "false_alarms": 30,
+    "false_alarms_per_min@nominal_fps": 73.52941176470588,
+    "median_latency_frames": 0.0
+  },
+  {
+    "min_hits": 2,
+    "sequences_detected": "29/29",
+    "frame_alarm_sensitivity": 0.7271241830065359,
+    "alarms": 87,
+    "false_alarms": 1,
+    "false_alarms_per_min@nominal_fps": 2.4509803921568625,
+    "median_latency_frames": 1.0
+  },
+  {
+    "min_hits": 3,
+    "sequences_detected": "29/29",
+    "frame_alarm_sensitivity": 0.5800653594771242,
+    "alarms": 62,
+    "false_alarms": 0,
+    "false_alarms_per_min@nominal_fps": 0.0,
+    "median_latency_frames": 2.0
+  },
+  {
+    "min_hits": 5,
+    "sequences_detected": "25/29",
+    "frame_alarm_sensitivity": 0.3660130718954248,
+    "alarms": 39,
+    "false_alarms": 0,
+    "false_alarms_per_min@nominal_fps": 0.0,
+    "median_latency_frames": 6.0
+  }
+]

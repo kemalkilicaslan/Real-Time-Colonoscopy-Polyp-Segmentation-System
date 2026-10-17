@@ -1,0 +1,30 @@
+negatives: train=1056  val=144
+device=mps  train=1936  val=264
+ep   1  loss 1.154/0.887  dice 0.437/0.842  101s *
+ep   2  loss 0.851/0.746  dice 0.739/0.840  89s
+ep   3  loss 0.787/0.785  dice 0.754/0.681  90s
+ep   4  loss 0.764/0.728  dice 0.766/0.811  88s
+ep   5  loss 0.735/0.711  dice 0.795/0.882  87s *
+ep   6  loss 0.725/0.695  dice 0.789/0.918  88s *
+ep   7  loss 0.719/0.724  dice 0.794/0.734  86s
+ep   8  loss 0.708/0.681  dice 0.811/0.913  87s
+ep   9  loss 0.704/0.675  dice 0.797/0.913  87s
+ep  10  loss 0.698/0.664  dice 0.830/0.893  87s
+ep  11  loss 0.692/0.666  dice 0.819/0.899  86s
+ep  12  loss 0.694/0.678  dice 0.825/0.909  87s
+ep  13  loss 0.675/0.661  dice 0.861/0.913  87s
+ep  14  loss 0.673/0.670  dice 0.873/0.912  88s
+ep  15  loss 0.669/0.626  dice 0.864/0.917  86s
+ep  16  loss 0.505/1.343  dice 0.813/0.373  86s
+ep  17  loss 0.599/0.604  dice 0.704/0.697  87s
+ep  18  loss 0.523/0.347  dice 0.736/0.808  88s
+ep  19  loss 0.446/0.412  dice 0.788/0.823  86s
+ep  20  loss 0.411/0.239  dice 0.791/0.873  87s
+ep  21  loss 0.354/0.414  dice 0.810/0.739  87s
+ep  22  loss 0.336/0.447  dice 0.819/0.772  86s
+ep  23  loss 0.509/0.283  dice 0.758/0.838  86s
+ep  24  loss 0.399/0.219  dice 0.793/0.883  86s
+ep  25  loss 0.328/0.203  dice 0.830/0.904  87s
+ep  26  loss 0.350/0.215  dice 0.827/0.893  88s
+early stop: no improvement for 20 epochs
+best val dice 0.9181 at epoch 6 -> runs/unet_r34_neg/best.pt

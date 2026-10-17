@@ -1,0 +1,6 @@
+pipeline,false_alarms,false_alarms_per_min,frames_with_false_box_pct
+raw per-frame output,3575,245.05,29.38
++ overlay & field-of-view mask,3565,244.37,29.33
++ quality gate,3437,235.59,28.5
++ temporal confirmation (3 frames),447,30.64,12.99
+  stricter confirmation (5 frames),235,16.11,8.5

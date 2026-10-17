@@ -1,0 +1,5 @@
+hardware,input,backend,mean_ms,p50_ms,p95_ms,fps
+Apple M1 Pro,1x3x352x352,PyTorch CPU FP32,116.26,113.74,126.63,8.6
+Apple M1 Pro,1x3x352x352,ONNX Runtime CPU FP32,99.21,97.63,108.63,10.08
+Apple M1 Pro,1x3x352x352,PyTorch MPS FP32,27.07,26.84,28.4,36.95
+Apple M1 Pro,1x3x352x352,ONNX Runtime CoreML,23.04,22.87,37.89,43.41

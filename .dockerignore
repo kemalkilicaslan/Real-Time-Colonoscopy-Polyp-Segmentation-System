@@ -1,0 +1,31 @@
+# Version control
+.git
+.gitignore
+.github
+
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Datasets, checkpoints and generated results (mounted at runtime via volume)
+data/
+runs/
+outputs/
+*.mp4
+*.mov
+*.avi
+*.gif
+*.png
+*.jpg
+*.jpeg
+*.pt
+*.onnx
+*.zip
+*.rar
+
+# Documentation
+LICENSE

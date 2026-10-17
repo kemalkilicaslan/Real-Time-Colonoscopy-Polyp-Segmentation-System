@@ -1,0 +1,16 @@
+services:
+  colonoscopy-polyp-segmentation:
+    build: .
+    image: real-time-colonoscopy-polyp-segmentation-system:latest
+    container_name: real-time-colonoscopy-polyp-segmentation-system
+    volumes:
+      - ./data:/app/data         # datasets and colonoscopy videos (python scripts/download_data.py)
+      - ./runs:/app/runs         # trained checkpoints (.pt) and ONNX models
+      - ./outputs:/app/outputs   # annotated videos, alarm events and evaluation results
+      - torch-cache:/root/.cache # cache downloaded ImageNet encoder weights between runs
+    # Override the default command to run any other step, e.g.:
+    # command: ["python", "-m", "polypseg.evaluate", "--ckpt", "runs/unet_r34_neg/best.pt", "--dataset", "cvc"]
+    # command: ["pytest"]
+
+volumes:
+  torch-cache:

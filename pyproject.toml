@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "polypseg"
+version = "0.1.0"
+description = "Real-time polyp segmentation for colonoscopy video: PyTorch training, clinical-style evaluation, FFmpeg video pipeline, ONNX/TensorRT deployment."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "CC-BY-NC-ND-4.0" }
+dependencies = [
+    "torch>=2.2",
+    "segmentation-models-pytorch>=0.3.4",
+    "albumentations>=2.0",
+    "opencv-python-headless>=4.9",
+    "tifffile>=2024.1",
+    "numpy>=1.26",
+    "pandas>=2.0",
+    "matplotlib>=3.8",
+    "pyyaml>=6.0",
+    "tqdm>=4.66",
+    "onnx>=1.16",
+    "onnxruntime>=1.18",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.5", "onnxscript>=0.1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "NPY"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["NPY002"]

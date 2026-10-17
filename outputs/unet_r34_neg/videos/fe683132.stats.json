@@ -1,0 +1,10 @@
+{
+  "frames": 371,
+  "duration_s": 14.8,
+  "skipped_by_quality_gate": 0,
+  "skipped_pct": 0.0,
+  "alarms": 5,
+  "suppressed_tentative_tracks": 6,
+  "model_ms_mean": 25.62,
+  "end_to_end_fps": 28.6
+}

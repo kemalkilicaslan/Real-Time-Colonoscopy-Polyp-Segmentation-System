@@ -1,0 +1,53 @@
+device=mps  train=880  val=120
+ep   1  loss 0.875/0.586  dice 0.664/0.801  64s *
+ep   2  loss 0.516/0.473  dice 0.792/0.821  52s *
+ep   3  loss 0.418/0.387  dice 0.810/0.821  53s *
+ep   4  loss 0.377/0.315  dice 0.824/0.853  47s *
+ep   5  loss 0.331/0.264  dice 0.845/0.880  42s *
+ep   6  loss 0.331/0.279  dice 0.845/0.867  42s
+ep   7  loss 0.313/0.248  dice 0.853/0.882  41s *
+ep   8  loss 0.289/0.249  dice 0.861/0.885  42s *
+ep   9  loss 0.289/0.244  dice 0.864/0.877  42s
+ep  10  loss 0.268/0.226  dice 0.870/0.891  42s *
+ep  11  loss 0.247/0.250  dice 0.880/0.875  47s
+ep  12  loss 0.258/0.286  dice 0.875/0.860  50s
+ep  13  loss 0.247/0.241  dice 0.879/0.887  50s
+ep  14  loss 0.242/0.247  dice 0.883/0.879  50s
+ep  15  loss 0.232/0.227  dice 0.886/0.890  51s
+ep  16  loss 0.231/0.247  dice 0.888/0.877  44s
+ep  17  loss 0.233/0.221  dice 0.888/0.893  46s *
+ep  18  loss 0.224/0.222  dice 0.891/0.896  51s *
+ep  19  loss 0.210/0.206  dice 0.900/0.897  51s *
+ep  20  loss 0.215/0.238  dice 0.895/0.881  51s
+ep  21  loss 0.207/0.224  dice 0.901/0.889  51s
+ep  22  loss 0.202/0.225  dice 0.903/0.894  46s
+ep  23  loss 0.198/0.226  dice 0.904/0.895  50s
+ep  24  loss 0.178/0.217  dice 0.912/0.898  51s *
+ep  25  loss 0.184/0.203  dice 0.909/0.898  51s
+ep  26  loss 0.170/0.211  dice 0.917/0.902  51s *
+ep  27  loss 0.176/0.202  dice 0.910/0.902  49s
+ep  28  loss 0.164/0.219  dice 0.919/0.894  49s
+ep  29  loss 0.175/0.209  dice 0.914/0.905  50s *
+ep  30  loss 0.159/0.192  dice 0.923/0.910  50s *
+ep  31  loss 0.149/0.230  dice 0.925/0.896  52s
+ep  32  loss 0.144/0.204  dice 0.927/0.906  53s
+ep  33  loss 0.147/0.207  dice 0.926/0.907  50s
+ep  34  loss 0.140/0.191  dice 0.931/0.909  44s
+ep  35  loss 0.139/0.200  dice 0.929/0.906  43s
+ep  36  loss 0.129/0.208  dice 0.934/0.903  44s
+ep  37  loss 0.133/0.200  dice 0.933/0.906  44s
+ep  38  loss 0.130/0.205  dice 0.935/0.905  43s
+ep  39  loss 0.125/0.200  dice 0.936/0.909  43s
+ep  40  loss 0.128/0.196  dice 0.935/0.909  43s
+ep  41  loss 0.126/0.198  dice 0.936/0.909  42s
+ep  42  loss 0.122/0.209  dice 0.938/0.906  43s
+ep  43  loss 0.120/0.211  dice 0.940/0.908  43s
+ep  44  loss 0.126/0.204  dice 0.937/0.909  42s
+ep  45  loss 0.125/0.203  dice 0.937/0.908  43s
+ep  46  loss 0.119/0.211  dice 0.940/0.907  43s
+ep  47  loss 0.119/0.211  dice 0.939/0.907  43s
+ep  48  loss 0.120/0.211  dice 0.940/0.907  42s
+ep  49  loss 0.115/0.211  dice 0.940/0.907  43s
+ep  50  loss 0.123/0.211  dice 0.938/0.907  42s
+early stop: no improvement for 20 epochs
+best val dice 0.9102 at epoch 30 -> runs/deeplabv3p_r34/best.pt

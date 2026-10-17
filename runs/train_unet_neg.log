@@ -1,0 +1,53 @@
+negatives: train=1056  val=144
+device=mps  train=1936  val=264
+ep   1  loss 0.886/0.378  dice 0.661/0.778  neg_clean 0.806  103s *
+ep   2  loss 0.470/0.238  dice 0.783/0.824  neg_clean 0.694  89s
+ep   3  loss 0.374/0.281  dice 0.800/0.776  neg_clean 0.514  88s
+ep   4  loss 0.352/0.198  dice 0.811/0.832  neg_clean 0.840  87s *
+ep   5  loss 0.341/0.161  dice 0.805/0.854  neg_clean 0.792  86s
+ep   6  loss 0.306/0.162  dice 0.822/0.847  neg_clean 0.938  87s *
+ep   7  loss 0.288/0.155  dice 0.826/0.858  neg_clean 0.889  87s
+ep   8  loss 0.276/0.156  dice 0.837/0.864  neg_clean 0.653  86s
+ep   9  loss 0.266/0.146  dice 0.847/0.859  neg_clean 0.931  86s *
+ep  10  loss 0.271/0.130  dice 0.839/0.886  neg_clean 0.750  87s
+ep  11  loss 0.252/0.127  dice 0.853/0.875  neg_clean 0.903  88s
+ep  12  loss 0.243/0.151  dice 0.858/0.858  neg_clean 0.875  87s
+ep  13  loss 0.235/0.132  dice 0.856/0.871  neg_clean 0.924  86s *
+ep  14  loss 0.227/0.143  dice 0.862/0.846  neg_clean 0.951  89s *
+ep  15  loss 0.235/0.152  dice 0.859/0.868  neg_clean 0.833  88s
+ep  16  loss 0.243/0.126  dice 0.857/0.883  neg_clean 0.806  88s
+ep  17  loss 0.224/0.121  dice 0.863/0.879  neg_clean 0.931  89s *
+ep  18  loss 0.205/0.121  dice 0.877/0.888  neg_clean 0.924  87s *
+ep  19  loss 0.224/0.118  dice 0.868/0.882  neg_clean 0.868  88s
+ep  20  loss 0.216/0.132  dice 0.864/0.885  neg_clean 0.889  88s
+ep  21  loss 0.193/0.122  dice 0.880/0.875  neg_clean 0.938  89s *
+ep  22  loss 0.187/0.116  dice 0.883/0.886  neg_clean 0.931  87s *
+ep  23  loss 0.193/0.124  dice 0.883/0.883  neg_clean 0.889  88s
+ep  24  loss 0.192/0.132  dice 0.884/0.877  neg_clean 0.924  88s
+ep  25  loss 0.195/0.115  dice 0.883/0.890  neg_clean 0.944  87s *
+ep  26  loss 0.178/0.129  dice 0.893/0.879  neg_clean 0.944  88s
+ep  27  loss 0.165/0.125  dice 0.897/0.878  neg_clean 0.917  89s
+ep  28  loss 0.177/0.108  dice 0.890/0.893  neg_clean 0.924  87s
+ep  29  loss 0.172/0.112  dice 0.893/0.896  neg_clean 0.931  90s
+ep  30  loss 0.161/0.100  dice 0.901/0.900  neg_clean 0.917  86s
+ep  31  loss 0.155/0.090  dice 0.902/0.914  neg_clean 0.965  88s *
+ep  32  loss 0.142/0.101  dice 0.912/0.905  neg_clean 0.958  86s
+ep  33  loss 0.158/0.099  dice 0.903/0.902  neg_clean 0.951  86s
+ep  34  loss 0.147/0.102  dice 0.907/0.903  neg_clean 0.972  86s
+ep  35  loss 0.136/0.104  dice 0.913/0.903  neg_clean 0.951  87s
+ep  36  loss 0.131/0.094  dice 0.917/0.907  neg_clean 0.972  88s *
+ep  37  loss 0.128/0.096  dice 0.920/0.905  neg_clean 0.951  90s
+ep  38  loss 0.136/0.098  dice 0.915/0.905  neg_clean 0.938  108s
+ep  39  loss 0.126/0.095  dice 0.920/0.905  neg_clean 0.965  106s
+ep  40  loss 0.127/0.097  dice 0.920/0.903  neg_clean 0.951  86s
+ep  41  loss 0.128/0.095  dice 0.920/0.907  neg_clean 0.958  89s
+ep  42  loss 0.118/0.095  dice 0.925/0.909  neg_clean 0.972  90s *
+ep  43  loss 0.122/0.095  dice 0.921/0.909  neg_clean 0.979  88s *
+ep  44  loss 0.115/0.095  dice 0.926/0.908  neg_clean 0.979  88s
+ep  45  loss 0.114/0.096  dice 0.928/0.908  neg_clean 0.979  108s
+ep  46  loss 0.116/0.094  dice 0.925/0.911  neg_clean 0.979  87s *
+ep  47  loss 0.114/0.095  dice 0.927/0.912  neg_clean 0.986  87s *
+ep  48  loss 0.116/0.094  dice 0.925/0.912  neg_clean 0.986  88s *
+ep  49  loss 0.118/0.096  dice 0.922/0.910  neg_clean 0.979  87s
+ep  50  loss 0.115/0.097  dice 0.925/0.911  neg_clean 0.979  88s
+best val score 0.9493 at epoch 48 -> runs/unet_r34_neg/best.pt

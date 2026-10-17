@@ -1,0 +1,7 @@
+group,n,failure_rate,mean_dice,share_of_failures
+all,612,0.064,0.854,1.0
+small,121,0.107,0.798,0.333
+specular,13,0.077,0.834,0.026
+blurry,153,0.072,0.865,0.282
+low_contrast,153,0.078,0.84,0.308
+multiple,53,0.17,0.731,0.231

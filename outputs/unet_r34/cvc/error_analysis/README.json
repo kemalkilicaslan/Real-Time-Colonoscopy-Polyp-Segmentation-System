@@ -1,0 +1,10 @@
+{
+  "failure_definition": "dice < 0.5",
+  "legend": "green contour = ground truth, magenta fill = prediction",
+  "thresholds": {
+    "small_area_frac": 0.03,
+    "specular_frac": 0.05,
+    "blurry": "bottom quartile Laplacian variance",
+    "low_contrast": "bottom quartile Lab distance"
+  }
+}

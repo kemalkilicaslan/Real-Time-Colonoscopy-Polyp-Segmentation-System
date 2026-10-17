@@ -1,0 +1,20 @@
+{
+  "n_images": 120,
+  "dice": 0.9163,
+  "iou": 0.8617,
+  "sensitivity": 0.9244,
+  "specificity": 0.9882,
+  "precision": 0.9325,
+  "dice_ci95": [
+    0.8947,
+    0.9346
+  ],
+  "iou_ci95": [
+    0.8328,
+    0.8868
+  ],
+  "polyp_sensitivity": 0.8794,
+  "false_pos_blobs_per_image": 0.0167,
+  "images_with_false_pos": 0.0167,
+  "failure_rate_dice_lt_0.5": 0.025
+}
